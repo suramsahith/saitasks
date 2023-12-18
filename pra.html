@@ -2,84 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=div, initial-scale=1.0">
   <title>Document</title>
   <style>
     body{
-      background-image: url(./img/architect.jpg);
-      
+      background-image: url(./img/black.jpg);
 
     }
-      
+   #s{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    margin-left: 900px;
+    transform: 4s;
+
     
-    #s{
-      position: absolute;
-      font-size: 30px;
-      top: 0px;
+   }
+#s:hover{
 
-    }
-    #a{
-      position: absolute;
-      left:600px;
-      font-size: 30px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(120deg);
+  background-color: blue;
 
-    }
+}
+#a{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: rgb(30, 210, 153);
+  margin-left: 700px;
+  transform: 5s;
+}
+#a:hover{
+  transform: scale(1,2);
+  width: 100px;
+  height: 100px;
+}
   #h{
-    position:absolute;
-    right: 0px;
-    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: whitesmoke;
+    margin-left: 500px;
+    transform: 6s;
   }
-  #i{
-    position: absolute;
-    bottom: 300px;
-    font-size: 30px;
-  }
-  #t{
-    position: absolute;
-    font-size: 30px;
-    bottom: 50%;
-    right: 600px;
-  
-  }
-  #g{
-    position: absolute;
-    bottom: 300px;
-    left: 1200px;
-    font-size: 30px;
-  }
-  #y{
-    position: absolute;
-    bottom: 10px;
-    font-size: 30px;
-  
-  }
-  #w{
-    position: absolute;
-    bottom: 0px;
-    left: 600px;
-    font-size: 30px;
-  }
-  #r{
-    position: absolute;
-    bottom: 0%;
-    left: 1200px;
-    font-size: 30px;
+  #h:hover{
+    width: 100px;
+    height: 100px;
+    transform: skewx(40deg);
   }
 
-  </style>
+#i{
+  background-color: chartreuse;
+  color: darkblue;
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  transform:6s ;
+  padding: 40px;
+}
+#i:hover{
+  width:100px;
+  height: 100px;
+  transform:skewY(30deg) ;
+
+}
+</style>
 
 </head>
 <body>
   
-  <div id="s">sai</div>
-  <div id="a">sahith</div>
-  <div id="h">mahi</div>
-  <div id="i">mahendra</div>
-  <div id="t">varu</div>
-  <div id="g">varun</div>
-  <div id="y">vishnu</div>
-  <div id="w">sasi</div>
-  <div id="r">vamsi</div>
+  <div id="s">
+    <h1> rotate</h1>
+    </div>
+  
+    <div id="a">
+      <h2>scale</h2>
 
+    </div>
+    <div id="h">
+      <h1>skewx</h1>
+    
+    </div>
+    
+    <div id="i">
+      <h3>skewy</h3>
+
+    </div>
+
+  
 </body>
 </html>
